@@ -4,7 +4,7 @@ import io.getarrays.userservice.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepo extends JpaRepository<Role, Long> {
-    
+ss
     Role findByName(String name);
 
 }
